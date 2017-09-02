@@ -33,15 +33,15 @@ public class Person2 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-	  String newString = "";
-	  Random rand = new Random();
-	  while (input.length() != 0) {
-	      int num = rand.nextInt(input.length());
-	      newString = newString + input.charAt(num);
-          input = input.substring(0, num) + input.substring(num + 1, input.length());
-      }
-	  return newString;
-	}
+        String newString = "";
+        Random rand = new Random();
+        while (input.length() != 0) {
+            int num = rand.nextInt(input.length());
+            newString = newString + input.charAt(num);
+            input = input.substring(0, num) + input.substring(num + 1, input.length());
+        }
+        return newString;
+    }
 	/**
 	 * Return a string rep of this object
 	 * that varies with an input string
