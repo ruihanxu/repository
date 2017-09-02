@@ -1,0 +1,33 @@
+Merge branch 'master' of https://github.com/ruihanxu/repository
+
+# Conflicts:
+#	M2/.DS_Store
+#	M2/src/.DS_Store
+#	M2/src/main/.DS_Store
+#	M2/src/main/java/.DS_Store
+#	M2/src/main/java/edu/.DS_Store
+#	M2/src/main/java/edu/gatech/.DS_Store
+#	M2/src/main/java/edu/gatech/oad/antlab/.DS_Store
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 3 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	new file:   M2/src/main/java/edu/gatech/oad/.DS_Store~90981bc1fefc7bd0c5f7adc4ac6b7276e9ccccd6
+#	modified:   M2/src/main/java/edu/gatech/oad/antlab/.DS_Store
+#	renamed:    .DS_Store -> M2/src/main/java/edu/gatech/oad/antlab/.DS_Store~HEAD
+#	deleted:    M2/useless.p4.txt
+#	new file:   readme.p4.txt
+#
