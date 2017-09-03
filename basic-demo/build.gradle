@@ -2,16 +2,5 @@ description = 'A trivial Gradle build'
 version = '1.0'
 apply plugin: 'java'
 
-tasks.withType(JavaCompile) {
-    //enable compilation in a separate daemon process
-    options.fork = true
 
-    //enable incremental compilation
-    options.incremental = true
-}
-apply plugin: 'java'
-
- task myJavadocs(type: Javadoc) {
-   source = sourceSets.main.allJava
- }
  
